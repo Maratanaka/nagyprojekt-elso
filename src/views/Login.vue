@@ -48,7 +48,7 @@ export default {
   methods: {
     async handleLogin() {
       try {
-        const response = await axios.post('https://localhost:7262/api/Auth/login', {
+        const response = await axios.post('https://my-backend.onrender.com/api/Auth/login', {
           email: this.email,
           password: this.password
         })
